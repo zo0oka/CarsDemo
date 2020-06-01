@@ -1,14 +1,15 @@
-package com.zo0okadev.carsdemo;
+package com.zo0okadev.carsdemo.ui.adapter;
 
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.paging.PagedListAdapter;
 
+import com.zo0okadev.carsdemo.R;
 import com.zo0okadev.carsdemo.databinding.CarListItemBinding;
+import com.zo0okadev.carsdemo.model.Car;
 
 /**
  * Created by Zo0okaDev (https://github.com/zo0oka)

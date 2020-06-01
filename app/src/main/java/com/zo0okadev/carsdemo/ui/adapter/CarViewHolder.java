@@ -1,11 +1,10 @@
-package com.zo0okadev.carsdemo;
-
-import android.view.View;
+package com.zo0okadev.carsdemo.ui.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.zo0okadev.carsdemo.databinding.CarListItemBinding;
+import com.zo0okadev.carsdemo.model.Car;
 
 /**
  * Created by Zo0okaDev (https://github.com/zo0oka)

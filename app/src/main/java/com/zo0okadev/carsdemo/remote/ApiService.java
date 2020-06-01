@@ -1,4 +1,6 @@
-package com.zo0okadev.carsdemo;
+package com.zo0okadev.carsdemo.remote;
+
+import com.zo0okadev.carsdemo.model.CarsResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

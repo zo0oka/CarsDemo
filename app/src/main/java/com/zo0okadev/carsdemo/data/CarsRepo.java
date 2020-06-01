@@ -1,9 +1,12 @@
-package com.zo0okadev.carsdemo;
+package com.zo0okadev.carsdemo.data;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.paging.LivePagedListBuilder;
 import androidx.paging.PagedList;
+
+import com.zo0okadev.carsdemo.interfaces.NetworkListener;
+import com.zo0okadev.carsdemo.model.Car;
 
 /**
  * Created by Zo0okaDev (https://github.com/zo0oka)

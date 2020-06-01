@@ -1,12 +1,10 @@
-package com.zo0okadev.carsdemo;
+package com.zo0okadev.carsdemo.model;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-
-import java.util.Objects;
 
 /**
  * Created by Zo0okaDev (https://github.com/zo0oka)

@@ -1,9 +1,14 @@
-package com.zo0okadev.carsdemo;
+package com.zo0okadev.carsdemo.data;
 
 import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.paging.PageKeyedDataSource;
+
+import com.zo0okadev.carsdemo.interfaces.NetworkListener;
+import com.zo0okadev.carsdemo.model.Car;
+import com.zo0okadev.carsdemo.model.CarsResponse;
+import com.zo0okadev.carsdemo.remote.ApiClient;
 
 import org.jetbrains.annotations.NotNull;
 

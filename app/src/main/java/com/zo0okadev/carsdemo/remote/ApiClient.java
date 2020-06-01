@@ -1,4 +1,4 @@
-package com.zo0okadev.carsdemo;
+package com.zo0okadev.carsdemo.remote;
 
 import org.jetbrains.annotations.NotNull;
 

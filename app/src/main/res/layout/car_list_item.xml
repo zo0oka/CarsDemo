@@ -4,7 +4,7 @@
     <data>
         <variable
             name="car"
-            type="com.zo0okadev.carsdemo.Car" />
+            type="com.zo0okadev.carsdemo.model.Car" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

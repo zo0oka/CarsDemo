@@ -1,4 +1,4 @@
-package com.zo0okadev.carsdemo;
+package com.zo0okadev.carsdemo.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

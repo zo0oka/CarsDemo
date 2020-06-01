@@ -1,4 +1,4 @@
-package com.zo0okadev.carsdemo;
+package com.zo0okadev.carsdemo.interfaces;
 
 /**
  * Created by Zo0okaDev (https://github.com/zo0oka)

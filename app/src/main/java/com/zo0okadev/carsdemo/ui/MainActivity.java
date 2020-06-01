@@ -1,17 +1,19 @@
-package com.zo0okadev.carsdemo;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.paging.PagedList;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+package com.zo0okadev.carsdemo.ui;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
+import com.zo0okadev.carsdemo.R;
 import com.zo0okadev.carsdemo.databinding.ActivityMainBinding;
+import com.zo0okadev.carsdemo.interfaces.NetworkListener;
+import com.zo0okadev.carsdemo.ui.adapter.CarsPagedRecyclerAdapter;
+import com.zo0okadev.carsdemo.viewModel.CarsViewModel;
 
 public class MainActivity extends AppCompatActivity implements NetworkListener, SwipeRefreshLayout.OnRefreshListener {
 
